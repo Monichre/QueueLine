@@ -1,0 +1,19 @@
+{ "tickets": [{
+
+    "author": "Veruca Salt",
+    "topic": "Ember",
+    "question": "How do we create and use a helper?",
+    "timeStamp": 15
+  }, {
+    "author": "Mike TV",
+    "topic": "Angular",
+    "question": "Need help styling my app.",
+    "timeStamp": 1
+  }, {
+    "author": "Violet Beauregarde",
+    "topic": "CSS",
+    "question": "How to I perfectly center all my divs?",
+    "timeStamp": 3
+
+  }]
+}
