@@ -99,3 +99,20 @@ header {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+.newTicket {
+  list-style-type: none!important;
+  padding: 15px;
+  border: 1px solid #000;
+  margin: 30px auto;
+  border-radius: 2px;
+  width: 300px;
+  box-shadow: 0px -1px 7px #ccc;
+
+}
+
+.newTicket:hover {
+  background-color: #E0531D;
+  border: 1px solid #E0531D;
+  color: #fff;
+}

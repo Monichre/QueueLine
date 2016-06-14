@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('admin');
   this.route('ticket', {path: '/ticket/:ticket_id'});
+  this.route('new-ticket');
 });
 
 export default Router;

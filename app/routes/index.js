@@ -6,5 +6,12 @@ export default Ember.Route.extend({
     return Ember.RSVP.hash({
       tickets: this.store.findAll('ticket')
     });
+  },
+  actions: {
+    save(params){
+      var newTicket = this.store.createRecord('ticket', params);
+      newTicket.save();
+      this.transitionTo('index');
+    }
   }
 });
